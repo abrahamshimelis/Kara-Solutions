@@ -1,0 +1,30 @@
+[0m18:30:20.076042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229858EF110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229822F5EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002298541C7A0>]}
+
+
+============================== 18:30:20.085758 | 7f7edcf0-71c4-4fa5-ae57-1e8827d2badd ==============================
+[0m18:30:20.085758 [info ] [MainThread]: Running with dbt=1.8.2
+[0m18:30:20.085758 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\abraham.shimelis\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init kara_solutions_dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:30:20.101355 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/abraham.shimelis/.dbt')}
+[0m18:30:20.102269 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:30:20.103303 [debug] [MainThread]: Starter project path: C:\Users\abraham.shimelis\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m18:30:20.122267 [info ] [MainThread]: 
+Your new dbt project "kara_solutions_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:30:20.123265 [info ] [MainThread]: Setting up your profile.
+[0m18:34:45.313979 [info ] [MainThread]: Profile kara_solutions_dbt written to C:\Users\abraham.shimelis\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:34:45.316337 [debug] [MainThread]: Command `dbt init` succeeded at 18:34:45.316203 after 265.39 seconds
+[0m18:34:45.316337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002298541C7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022985E7B0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229850934D0>]}
+[0m18:34:45.317235 [debug] [MainThread]: Flushing usage events
